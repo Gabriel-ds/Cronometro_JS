@@ -3,7 +3,26 @@
     padding: 0;
 }
 
-.cronometro{
+.timer{
+    align-items: center;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25pt;
 }
 
+.botoes{
+    margin: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    margin: 2px;
+    padding: 2px;
+}
