@@ -10,10 +10,17 @@ function start(){
 }
 
 function stop(){
+    s = 0
+    m = 0
+    clearInterval(cron)
+
+    document.querySelector('.timer').innerHTML = "<h1>00:00</h1>"
+   
 
 }
 
 function pause(){
+    clearInterval(cron)
 
 }
 
